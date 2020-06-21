@@ -16,6 +16,7 @@
 		9C3A7BD223F148DA004C7B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7BD123F148DA004C7B9D /* main.m */; };
 		9C3A7BDC23F148DA004C7B9D /* _8_2_runloop_________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7BDB23F148DA004C7B9D /* _8_2_runloop_________Tests.m */; };
 		9C3A7BE723F148DA004C7B9D /* _8_2_runloop_________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7BE623F148DA004C7B9D /* _8_2_runloop_________UITests.m */; };
+		9C3A7BF923F14A97004C7B9D /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A7BF823F14A97004C7B9D /* Thread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9C3A7BE223F148DA004C7B9D /* 08.2-runloop控制线程的生命周期UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08.2-runloop控制线程的生命周期UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3A7BE623F148DA004C7B9D /* _8_2_runloop_________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8_2_runloop_________UITests.m"; sourceTree = "<group>"; };
 		9C3A7BE823F148DA004C7B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3A7BF723F14A97004C7B9D /* Thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		9C3A7BF823F14A97004C7B9D /* Thread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9C3A7BC323F148D9004C7B9D /* SceneDelegate.m */,
 				9C3A7BC523F148D9004C7B9D /* ViewController.h */,
 				9C3A7BC623F148D9004C7B9D /* ViewController.m */,
+				9C3A7BF723F14A97004C7B9D /* Thread.h */,
+				9C3A7BF823F14A97004C7B9D /* Thread.m */,
 				9C3A7BC823F148D9004C7B9D /* Main.storyboard */,
 				9C3A7BCB23F148DA004C7B9D /* Assets.xcassets */,
 				9C3A7BCD23F148DA004C7B9D /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				9C3A7BC723F148D9004C7B9D /* ViewController.m in Sources */,
 				9C3A7BC123F148D9004C7B9D /* AppDelegate.m in Sources */,
 				9C3A7BD223F148DA004C7B9D /* main.m in Sources */,
+				9C3A7BF923F14A97004C7B9D /* Thread.m in Sources */,
 				9C3A7BC423F148D9004C7B9D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
